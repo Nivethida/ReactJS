@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import Japp from './Japp.jsx';
+import Parent3 from "./parent3.jsx";
+import Validity from "./validity.jsx";
+ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Japp />, document.getElementById('japp'));
+ReactDOM.render(<Parent3/>,document.getElementById('parentComponent3'));
+ReactDOM.render(<Validity/>,document.getElementById('valid'));
